@@ -31,3 +31,14 @@ Capturar y analizar la secuencia de tráfico web generada al navegar a un sitio 
 ## Conclusiones y Lecciones Aprendidas
 * Comprensión de la extracción de metadatos de red (SNI, IPs destino, volumen de tráfico) para investigar incidentes con tráfico cifrado por HTTPS.
 * Mapeo completo de la secuencia operativa: Navegador $\rightarrow$ DNS $\rightarrow$ TCP Handshake $\rightarrow$ TLS Handshake $\rightarrow$ Tráfico Cifrado.
+  Markdown
+## Evidencia Capturada
+
+### 1. Resolución DNS y Transaction ID
+![Consulta DNS](../../images/01_dns_query_analysis.png)
+
+### 2. TCP Three-Way Handshake
+![TCP Handshake](../../images/02_tcp_handshake.png)
+
+### 3. Negociación TLS y Extracción de SNI
+![Extracción de SNI](../../images/03_tls_sni_extraction.png)
