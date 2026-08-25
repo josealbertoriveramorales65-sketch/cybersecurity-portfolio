@@ -31,14 +31,7 @@ Capturar y analizar la secuencia de tráfico web generada al navegar a un sitio 
 ## Conclusiones y Lecciones Aprendidas
 * Comprensión de la extracción de metadatos de red (SNI, IPs destino, volumen de tráfico) para investigar incidentes con tráfico cifrado por HTTPS.
 * Mapeo completo de la secuencia operativa: Navegador $\rightarrow$ DNS $\rightarrow$ TCP Handshake $\rightarrow$ TLS Handshake $\rightarrow$ Tráfico Cifrado.
-### 1. Resolución DNS y Transaction ID
-![Consulta DNS](../../images/nombre-exacto-de-tu-archivo.png)
-
-### 2. TCP Three-Way Handshake
-![TCP Handshake](../../images/nombre-exacto-de-tu-archivo.png)
-
-### 3. Negociación TLS y Extracción de SNI
-![Extracción de SNI](../../images/nombre-exacto-de-tu-archivo.png)<img width="1916" height="767" alt="02_tcp_handshake png" src="https://github.com/user-attachments/assets/eb2a9602-d8e3-4051-9f94-745ed28ee69f" />
-<img width="1919" height="972" alt="03_tls_sni_extraction png" src="https://github.com/user-attachments/assets/6fd7f688-c254-4258-b3d9-46e90637ff23" />
-<img width="1121" height="874" alt="01_dns_query_analysis png" src="https://github.com/user-attachments/assets/9430034b-35ef-4818-ad82-90ec7a66ee49" />
+<img width="1121" height="874" alt="01_dns_query_analysis png" src="https://github.com/user-attachments/assets/9ba1ae95-853e-4674-abe4-62852ce169bc" />
+<img width="1916" height="767" alt="02_tcp_handshake png" src="https://github.com/user-attachments/assets/8a74d1e3-d212-4c91-8926-2b83c3a9687d" />
+<img width="1919" height="972" alt="03_tls_sni_extraction png" src="https://github.com/user-attachments/assets/f75b9cb2-44ab-4bda-a2cc-d91417dd45ae" />
 
